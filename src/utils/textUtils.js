@@ -1,0 +1,1 @@
+export const cutLongText = text => !text ? "No Description" : (text.length > 100 ? text.substring(0, 100) + "..." : text);
